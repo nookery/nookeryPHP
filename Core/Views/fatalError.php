@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-    <title>系统发生异常</title>
+    <title>系统发生致命错误</title>
     <style type="text/css">
       *{ padding: 0; margin: 0; }
       html{ overflow-y: scroll; }
@@ -21,7 +21,7 @@
   </head>
   <body>
     <div class="error">
-      <h1>系统发生异常</h1><hr/><br/>
+      <h1>系统发生致命错误</h1><hr/><br/>
       <h2><?php echo strip_tags($errorArray['message']);?></h2><br/>
       <div class="content">
         <?php if(isset($errorArray['file'])) {?>
